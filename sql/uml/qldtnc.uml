@@ -1,0 +1,113 @@
+@startuml
+/'-----------------------'/ 
+/' top to bottom direction '/
+left to right direction 
+skinparam roundcorner 5
+/' skinparam linetype ortho '/ 
+
+entity GV_DT
+{
+* MaGV: char(5) << FK>>
+* DienThoai: char(12)
+---------
+}
+
+entity GIAOVIEN
+{
+ GVQL: char(5) <<FK>>
+* MaGV:char(5)
+ MaBM:nchar(5) <<FK>>
+---------
+ HoTen: nvarchar(40)
+ Luong: float
+ Phai: nchar(3)
+ NgaySinh: datetime 
+ SoNha: char(3)
+ Duong: nvarchar(50)
+ Quan:nvarchar (10)
+ ThanhPho:nvarchar(20)
+}
+/'-----------------------'/ 
+
+
+/' entity GV_DT '/
+
+entity BOMON
+{
+* MaBM: nchar(5)
+MaKhoa: char(4)<<FK>>
+TruongBM: char(5)<<FK>>
+---------
+NgayNhanChuc: datetime
+DienThoai: char(12)
+TenBM: nvarchar(40)
+Phong: char(5)
+}
+
+
+entity KHOA
+{
+* MaKhoa: char(4)
+ TruongKhoa: char(5) <<FK>>
+---------
+ NgayNhanChuc: datetime
+ TenKhoa: nvarchar(40)
+ NamTL: int
+ Phong: char(5)
+ DienThoai: char(12)
+}
+
+entity DETAI
+{
+* MaDT: char(3)
+ GVCNDT: char(5) <<FK>>
+ MaCD: nchar(4) <<FK>>
+---------
+ TenDT: nvarchar(100)
+ KinhPhi: float
+ CapQL: nvarchar(40)
+ NgayBD: datetime 
+ NgayKT: datetime 
+}
+
+
+entity CONGVIEC
+{
+* MaDT: char(3) <<FK>>
+* STT: int 
+---------
+TenCV:nvarchar(40)
+NgayBD: datetime 
+NgayKT: datetime
+}
+
+entity CHUDE
+{
+* MaCD: nchar(4)
+---------
+TenCD: nvarchar(50)
+}
+
+entity THAMGIADT
+{
+* MaGV: char(5) <<FK>>
+* MaDT: char(3) <<FK>>
+* STT: int <<FK>>
+---------
+ PhuCap: float
+ KetQua: nvarchar(40)
+}
+
+
+/' TODO quan he giua giao vien va giao vien quan ly '/
+GIAOVIEN }|--o| GIAOVIEN::MaGV
+GIAOVIEN::MaBM ||--o{ BOMON::MaBM
+GV_DT::MaGV |o--|{ GIAOVIEN::MaGV
+BOMON::MaKhoa ||--|{ KHOA::MaKhoa
+KHOA::TruongKhoa ||--o| GIAOVIEN::MaGV
+DETAI::MaCD |o--o{ CHUDE::MaCD
+CONGVIEC::MaDT }|--o{DETAI::MaDT
+THAMGIADT::MaGV }|--|{GIAOVIEN::MaGV
+THAMGIADT::MaDT ||--|| CONGVIEC::MaDT
+THAMGIADT::STT ||--|| CONGVIEC::STT
+@enduml

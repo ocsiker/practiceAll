@@ -1,0 +1,2113 @@
+!SESSION 2023-06-12 05:05:47.015 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.641
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.716
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.732
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.733
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.745
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.747
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.749
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.751
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.752
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.754
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.756
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.758
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.760
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.761
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.762
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.763
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.764
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.766
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.768
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.771
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.773
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.774
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.794
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.798
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.835
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.835
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.836
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.836
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.837
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.837
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.864
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.865
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.865
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.865
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.866
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.866
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.867
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.867
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.867
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.868
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:05:47.869
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:05:47.869
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:05:47.869
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.883
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.883
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.883
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.883
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.884
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.884
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:47.887
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.294
+!MESSAGE ProjectRegistryRefreshJob finished 406ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.303
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.320
+!MESSAGE RepositoryRegistryUpdateJob finished 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.326
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.374
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:48.437
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:51.365
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:52.779
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:52.795
+!MESSAGE Workspace initialized in 4486ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:52.805
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:52.806
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:05:53.343
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:05:53.484
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:53.560
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:53.789
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:54.448
+!MESSAGE begin problem for /ScannerSample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:54.449
+!MESSAGE 1 problems reported for /ScannerSample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:05:54.450
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:48.290
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:48.302
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:48.343
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:48.346
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:06:55.607 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.374
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.461
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.477
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.478
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:06:56.484
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:06:56.484
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:06:56.484
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.498
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.499
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.499
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.500
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.500
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.501
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.505
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.506
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.515
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.523
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:56.933
+!MESSAGE RepositoryRegistryUpdateJob finished 410ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:58.296
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:58.967
+!MESSAGE Workspace initialized in 2444ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:58.982
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:58.983
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:06:59.426
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:06:59.451
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:59.453
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:06:59.613
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:07:00.267
+!MESSAGE begin problem for /ScannerSample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:07:00.267
+!MESSAGE 1 problems reported for /ScannerSample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:07:00.268
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:10:50.444
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:49.883
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:49.888
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:49.902
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:49.905
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:22:57.511 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.192
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.280
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.296
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.297
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:22:58.303
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:22:58.303
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:22:58.303
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.316
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.316
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.317
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.317
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.318
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.318
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.321
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.322
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.332
+!MESSAGE Started org.eclipse.buildship.core 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.341
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:22:58.758
+!MESSAGE RepositoryRegistryUpdateJob finished 418ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:00.187
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:00.850
+!MESSAGE Workspace initialized in 2510ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:00.865
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:00.866
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:23:01.136
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:23:01.277
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:01.285
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:01.577
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:02.240
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:02.241
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:23:02.241
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:46.599
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:46.602
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:46.627
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:46.630
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:24:51.163 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.868
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.953
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.971
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.973
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:24:51.980
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:24:51.981
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:24:51.981
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.996
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.996
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.996
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.997
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.997
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:51.998
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:52.002
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:52.003
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:52.015
+!MESSAGE Started org.eclipse.buildship.core 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:52.026
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:52.443
+!MESSAGE RepositoryRegistryUpdateJob finished 419ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:53.863
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:54.516
+!MESSAGE Workspace initialized in 2492ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:54.524
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:54.526
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:24:54.741
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:24:55.055
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:55.060
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:55.133
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:55.781
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:55.782
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:24:55.783
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:31.758
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:31.773
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:31.798
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:31.801
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:34:36.723 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.426
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.520
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.538
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.540
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:34:37.546
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:34:37.546
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:34:37.546
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.560
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.560
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.561
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.561
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.561
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.562
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.564
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.565
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.573
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.583
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:37.998
+!MESSAGE RepositoryRegistryUpdateJob finished 416ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:39.405
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:40.057
+!MESSAGE Workspace initialized in 2476ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:40.065
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:40.066
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:34:40.358
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:34:40.492
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:40.493
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:40.803
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:41.458
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:41.458
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:34:41.459
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:49.618
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:49.632
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:49.666
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:49.669
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:37:55.445 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.157
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.243
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.259
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.260
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:37:56.266
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:37:56.266
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:37:56.266
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.279
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.280
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.280
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.280
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.281
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.281
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.284
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.285
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.293
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.303
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:56.727
+!MESSAGE RepositoryRegistryUpdateJob finished 427ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:58.092
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:58.733
+!MESSAGE Workspace initialized in 2432ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:58.746
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:58.748
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:37:58.994
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:37:59.163
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:59.170
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:37:59.392
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:38:00.103
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:38:00.103
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:38:00.104
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:21.710
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:21.712
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:21.739
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:21.742
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:41:30.029 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.739
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.826
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.842
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.844
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:41:30.849
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:41:30.850
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:41:30.850
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.865
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.866
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.867
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.867
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.867
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.868
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.871
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.871
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.880
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:30.889
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:31.316
+!MESSAGE RepositoryRegistryUpdateJob finished 429ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:32.730
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:33.376
+!MESSAGE Workspace initialized in 2490ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:33.392
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:33.393
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:41:33.650
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:41:33.804
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:33.805
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:34.101
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:34.807
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:34.808
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:41:34.809
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:00.007
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:00.016
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:00.043
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:00.045
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:43:02.648 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.364
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.447
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.464
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.465
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:43:03.471
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:43:03.471
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:43:03.471
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.484
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.484
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.484
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.485
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.485
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.485
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.488
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.489
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.497
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.505
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:03.912
+!MESSAGE RepositoryRegistryUpdateJob finished 406ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:05.297
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:05.955
+!MESSAGE Workspace initialized in 2450ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:05.964
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:05.965
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:43:06.195
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:43:06.364
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:06.370
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:06.594
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:07.294
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:07.294
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:43:07.295
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:37.331
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:37.336
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:37.362
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:37.365
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 05:46:41.790 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.478
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.562
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.579
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.581
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:46:42.586
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:46:42.586
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 05:46:42.587
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.599
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.600
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.600
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.601
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.601
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.601
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.605
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.606
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.618
+!MESSAGE Started org.eclipse.buildship.core 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:42.629
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:43.034
+!MESSAGE RepositoryRegistryUpdateJob finished 407ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:44.401
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:45.059
+!MESSAGE Workspace initialized in 2433ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:45.074
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:45.076
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:46:45.320
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 05:46:45.440
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:45.444
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:45.719
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:46.419
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:46.420
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 05:46:46.420
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:03:23.895
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:03:23.907
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:03:23.927
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:03:23.930
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 06:04:50.075 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.765
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.849
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.869
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.871
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:04:50.877
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:04:50.878
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:04:50.878
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.890
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.890
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.891
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.891
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.891
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.892
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.894
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.895
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.904
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:50.915
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:51.318
+!MESSAGE RepositoryRegistryUpdateJob finished 406ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:52.693
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:53.341
+!MESSAGE Workspace initialized in 2430ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:53.358
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:53.359
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:04:53.608
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:04:53.785
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:53.793
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:54.006
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:54.656
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:54.657
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:04:54.657
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:32.384
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:32.795
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:32.795
+!MESSAGE 4 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:32.796
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:46.041
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:46.511
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:46.511
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:46.511
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:52.490
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:52.957
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:52.958
+!MESSAGE 4 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:52.959
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:54.787
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:55.252
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:55.252
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:05:55.253
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:05.926
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:05.937
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:05.979
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:05.982
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 06:08:39.392 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.089
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.176
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.193
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.195
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:40.201
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:40.201
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:40.202
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.216
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.216
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.217
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.217
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.217
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.218
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.221
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.222
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.231
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.238
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:40.645
+!MESSAGE RepositoryRegistryUpdateJob finished 405ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:42.014
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:42.657
+!MESSAGE Workspace initialized in 2417ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:42.673
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:42.674
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:42.902
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY java-debug 1 0 2023-06-12 06:08:42.913
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:43.106
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:43.109
+!MESSAGE >> build jobs finished
+
+!ENTRY java-debug 4 0 2023-06-12 06:08:43.221
+!MESSAGE Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:08:43.221
+!MESSAGE The project 'Your Java Project' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:08:43.227
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:43.228
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:43.350
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:44.029
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:44.029
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:08:44.030
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY java-debug 4 0 2023-06-12 06:08:53.043
+!MESSAGE Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:08:53.043
+!MESSAGE The project 'Your Java Project' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:08:53.044
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:08:53.045
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'Your Java Project' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:16:24.005
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:16:24.015
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:16:24.040
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:16:24.043
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-12 06:23:27.406 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/ocsiker
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.129
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.213
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.229
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.230
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:23:28.236
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:23:28.236
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:23:28.236
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.249
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.249
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.249
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.250
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.250
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.250
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.253
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.254
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.263
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.271
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:28.705
+!MESSAGE RepositoryRegistryUpdateJob finished 436ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:30.063
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:30.753
+!MESSAGE Workspace initialized in 2484ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:30.765
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:30.766
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:23:30.994
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:31.385
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:23:31.402
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token ";", @ expected after this token; code: 1610612967; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 1
+ message: Syntax error, insert ")" to complete SingleMemberAnnotation; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "enum Identifier" to complete EnumHeaderName; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+ message: Syntax error, insert "EnumBody" to complete EnumDeclaration; code: 1610612976; resource: /home/ocsiker/javaBackup/sources/PDate/src/main/PDate/src/main/PDate.java; line: 10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:31.405
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:31.960
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:32.607
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:32.607
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:32.608
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:34.612
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:34.657
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:35.075
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:35.075
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:35.075
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:36.386
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:36.497
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:36.559
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:36.641
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:36.733
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:37.207
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:37.207
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:37.208
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:38.238
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:38.543
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:39.015
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:39.015
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:39.016
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.161
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.578
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.578
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.579
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.730
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.778
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:40.894
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.061
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.181
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.374
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.787
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.788
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.788
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.943
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:41.956
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:42.405
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:42.405
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:42.406
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:43.808
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:43.854
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:43.900
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:43.938
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:44.309
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:44.723
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:44.723
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:44.724
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:47.989
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:48.024
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:48.343
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:48.396
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:48.480
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:48.588
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.002
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.002
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.003
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.214
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.680
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.681
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:49.681
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:50.226
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:50.687
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:50.687
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:50.687
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:52.990
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:53.461
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:53.461
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:53.462
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:54.558
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:54.970
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:54.970
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:54.970
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:55.717
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:56.178
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:56.179
+!MESSAGE 0 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:56.179
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:24:00.125
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:24:00.128
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:24:00.170
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:24:00.172
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

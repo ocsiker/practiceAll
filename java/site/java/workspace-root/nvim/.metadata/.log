@@ -1,0 +1,1292 @@
+!SESSION 2023-06-12 06:20:07.271 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/nvim
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:07.903
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:07.981
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:07.996
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:07.998
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:08.003
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:08.003
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:08.003
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.016
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.016
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.016
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.017
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.017
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.017
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.019
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.409
+!MESSAGE ProjectRegistryRefreshJob finished 389ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.418
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.433
+!MESSAGE RepositoryRegistryUpdateJob finished 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.440
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.500
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.500
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:08.731
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:09.389
+!MESSAGE Workspace initialized in 965ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:09.420
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:09.423
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:09.689
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:09.956
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:10.136
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:10.820
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:10.821
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:20:10.821
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY java-debug 1 0 2023-06-12 06:20:15.248
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY java-debug 4 0 2023-06-12 06:20:15.291
+!MESSAGE Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:20:15.291
+!MESSAGE The project 'java-sample-app' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:20:15.297
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:15.298
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY java-debug 4 0 2023-06-12 06:20:17.201
+!MESSAGE Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:20:17.201
+!MESSAGE The project 'java-sample-app' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:20:17.202
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:17.203
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY java-debug 4 0 2023-06-12 06:20:18.661
+!MESSAGE Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:20:18.661
+!MESSAGE The project 'java-sample-app' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:20:18.662
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:18.663
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY java-debug 4 0 2023-06-12 06:20:20.056
+!MESSAGE Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 com.microsoft.java.debug.plugin 4 0 2023-06-12 06:20:20.056
+!MESSAGE The project 'java-sample-app' is not a valid java project.
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2023-06-12 06:20:20.057
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-12 06:20:20.057
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:590)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: The project 'java-sample-app' is not a valid java project.
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.getJavaProjectFromName(ResolveClasspathsHandler.java:95)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:186)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:12.727
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:12.736
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:12.770
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-12 06:23:12.773
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-13 15:22:29.684 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ocsiker/Alpha/sourceCode/java//site/java/workspace-root/nvim
+
+!ENTRY org.eclipse.core.resources 4 567 2023-06-13 15:22:30.222
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-13 15:22:30.222
+!MESSAGE Could not read metadata for 'demo'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/demo)[567]: java.lang.Exception: The project description file (.project) for 'demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:894)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:730)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2549)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2254)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:500)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3578)
+	at java.base/java.lang.Class.getConstructor(Class.java:2271)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:801)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1788)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-13 15:22:30.222
+!MESSAGE The project description file (.project) for 'demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:894)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:730)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2549)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2254)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:500)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3578)
+	at java.base/java.lang.Class.getConstructor(Class.java:2271)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:801)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:753)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1788)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.546
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.616
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.632
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.633
+!MESSAGE Initializing Java Language Server 1.24.0.202306011728
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.636
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.637
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.638
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.639
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.640
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.641
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.642
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.643
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.643
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.644
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.645
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.646
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.646
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.647
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.648
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.649
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.650
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.650
+!MESSAGE Installed reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.654
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.655
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.657
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.660
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.660
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.663
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.674
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.675
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.675
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.676
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.699
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.700
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.700
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.701
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.701
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.701
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.702
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.702
+!MESSAGE Started reference:file:/home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.9.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-13 15:22:30.703
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:100)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-06-13 15:22:30.703
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2023-06-13 15:22:30.703
+!MESSAGE Failed to get bundleInfo for bundle from /home/ocsiker/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.722
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.722
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.723
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.723
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.724
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.724
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.727
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.728
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.741
+!MESSAGE Started org.eclipse.buildship.core 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:30.766
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:31.136
+!MESSAGE RepositoryRegistryUpdateJob finished 387ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:31.381
+!MESSAGE Workspace initialized in 632ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:31.395
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:31.397
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-13 15:22:31.777
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:31.809
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:32.133
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:32.818
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:32.818
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:32.820
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:48.424
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:48.618
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:48.686
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:48.741
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:48.802
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.221
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.222
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.222
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.378
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.439
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.917
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.917
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:49.917
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:52.904
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:53.353
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:53.357
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:53.817
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:53.818
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:53.818
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.561
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.582
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.716
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.748
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.780
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:54.821
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.041
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.226
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.279
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.742
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.742
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:55.742
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:57.391
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:57.426
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:57.531
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:57.667
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:58.111
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:58.573
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:58.573
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:58.574
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:59.204
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:59.268
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:59.731
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:59.732
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:22:59.732
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:00.280
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:00.679
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:00.721
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:00.849
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:00.974
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.044
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.322
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.795
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.796
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.796
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.958
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:01.996
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.025
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.056
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.485
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.507
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.649
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:02.954
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:03.363
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:03.363
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:03.363
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:04.611
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.067
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.068
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.068
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.383
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.845
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.845
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.845
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:05.966
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.018
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.086
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.277
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.353
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.410
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.764
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:06.767
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.105
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.190
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.305
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.383
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.443
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.830
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.845
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:07.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:08.363
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:08.778
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:08.778
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:08.779
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:09.803
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:10.260
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:10.261
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:10.261
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:10.262
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:10.646
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:11.111
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:11.111
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:11.111
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:11.112
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:31.733
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:32.193
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:32.194
+!MESSAGE Duplicate local variable thisString is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:32.194
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:32.195
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:32.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.373
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.373
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.373
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.373
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.518
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:33.563
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:34.003
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:34.015
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:34.476
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:34.476
+!MESSAGE 3 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:34.476
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.131
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.185
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.431
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.443
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.453
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.604
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:35.786
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:36.243
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:36.705
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:36.705
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:36.705
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:36.706
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.035
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.067
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.109
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.153
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.241
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.697
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.697
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:38.698
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:40.324
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:40.735
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:40.736
+!MESSAGE Cannot use this in a static context is of type ThisInStaticContext
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:40.736
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:40.737
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:41.129
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:41.585
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:41.585
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:41.585
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:42.422
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:42.575
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:42.763
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:43.116
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:43.576
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:43.576
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:43.576
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:49.246
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:49.707
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:49.707
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:49.707
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:23:49.707
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:00.810
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:01.224
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:01.224
+!MESSAGE 1 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:01.225
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:05.531
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:05.993
+!MESSAGE begin problem for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:05.994
+!MESSAGE The value of the local variable thisString is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:05.994
+!MESSAGE 2 problems reported for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:05.995
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:20.656
+!MESSAGE Clearing problems for /ScannerLocal.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:23.632
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:23.641
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:23.667
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-13 15:24:23.670
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

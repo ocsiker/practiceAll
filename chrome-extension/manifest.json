@@ -1,0 +1,15 @@
+{
+    "name": "NightTime",
+    "version": "1.0",
+    "manifest_version": 1,
+    "description": "Toggle the darkness.",
+    "permissions": [
+      "<all_urls>"
+     ],
+    "browser_action": {
+      "name": "Nighty"
+    },
+    "background": { 
+      "scripts": ["script.js"]
+    }
+}

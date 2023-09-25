@@ -1,0 +1,12 @@
+X<-c(0.2,0.2,0.4,0.4,0.6,0.6,0.8,0.8,1.0,1.0)
+D<-c(19,21,35,38,64,66,115,130,200,210)
+# print(cor.test(X, D))
+df<-data.frame(X,D)
+# print(shapiro.test(trans))
+model <- lm(D ~ X)
+# print(coef(model))
+print(predict(model,data.frame(X=0.5),interval = ("prediction")))
+# plot(D~X,data=df)
+# abline(coef(model),col="red")
+# residus <-rediduals(model)
+#
