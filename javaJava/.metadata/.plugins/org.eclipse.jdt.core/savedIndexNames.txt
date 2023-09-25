@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+/home/ocsiker/Alpha/sourceCode/javaJava/.metadata/.plugins/org.eclipse.jdt.core
-1863463909.index
-1865797976.index
