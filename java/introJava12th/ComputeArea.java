@@ -1,5 +1,6 @@
 // compute area page 57/1717
 import java.clang.*;
+import java.util.Scanner;
 
 /** ComputeArea */
 public class ComputeArea {
