@@ -14,7 +14,7 @@ public class ShowCurrentTime {
     long totalMinutes = totalSeconds / 60;
 
     // seconds current by totalSeconds % 60
-    int minutes = totalMinutes % 60;
+    int minutes = (int) totalMinutes % 60;
 
     // hours current by totalMinutes / 60
     int hours = totalMinutes / 60;
