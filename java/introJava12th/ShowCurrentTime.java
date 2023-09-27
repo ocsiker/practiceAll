@@ -8,7 +8,7 @@ public class ShowCurrentTime {
     long totalSeconds = totalMilliSeconds / 1000;
 
     // seconds current by totalSeconds % 60
-    int seconds = totalSeconds % 60;
+    int seconds = (int) totalSeconds % 60;
 
     // totalMinutes current by totalSeconds / 60
     int totalMinutes = totalSeconds / 60;
