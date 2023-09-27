@@ -8,6 +8,9 @@ public class ComputeArea {
     // read radius
     double radius, area;
 
+    // declare Pi value
+    final double PI = 3.14159;
+
     // SET radius to 20
     // radius = 20;
 
