@@ -2,10 +2,10 @@ public class ShowCurrentTime {
   public static void main(String[] args) {
 
     // get millis time from UNIX epoch
-    long milliTime = System.currentTimeMillis();
+    long totalMilliSeconds = System.currentTimeMillis();
 
     // Get totalSeconds by currentTimeMillis divide 1000
-    int totalSeconds = (int) milliTime / 1000;
+    int totalSeconds = totalMilliSeconds / 1000;
 
     // seconds current by totalSeconds % 60
     int seconds = totalSeconds % 60;
@@ -19,7 +19,7 @@ public class ShowCurrentTime {
     // hours current by totalMinutes / 60
     int hours = totalMinutes / 60;
     System.out.println(
-        milliTime
+        totalMilliSeconds
             + " currentTimeMillis "
             + hours
             + " hours "
