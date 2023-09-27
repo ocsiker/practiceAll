@@ -17,7 +17,7 @@ public class ShowCurrentTime {
     int minutes = (int) totalMinutes % 60;
 
     // hours current by totalMinutes / 60
-    int hours = totalMinutes / 60;
+    long hours = totalMinutes / 60;
     System.out.println(
         totalMilliSeconds
             + " currentTimeMillis "
