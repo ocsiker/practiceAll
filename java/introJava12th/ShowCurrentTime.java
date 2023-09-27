@@ -5,7 +5,7 @@ public class ShowCurrentTime {
     long milliTime = System.currentTimeMillis();
 
     // Get totalSeconds by currentTimeMillis divide 1000
-    int totalSeconds = milliTime / 1000;
+    int totalSeconds = (int) milliTime / 1000;
 
     // seconds current by totalSeconds % 60
     int seconds = totalSeconds % 60;
