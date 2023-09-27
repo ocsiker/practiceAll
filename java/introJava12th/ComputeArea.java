@@ -22,7 +22,7 @@ public class ComputeArea {
     radius = input.nextDouble();
 
     // compute area
-    area = radius * radius * 3.14159;
+    area = radius * radius * PI;
 
     // display area
     System.out.println("This area for the circle of radius:" + radius + " is " + area);
