@@ -2,8 +2,8 @@ public class SubtractionQuiz {
   public static void main(String[] args) {
     // Generate two number
     // number1 and number2
-    int number1 = (int) (Math.random() * 10);
-    int number2 = (int) (Math.random() * 10);
+    int number1 = (int) (Math.random() * 100);
+    int number2 = (int) (Math.random() * 100);
 
     //
     // If number1 < number2
