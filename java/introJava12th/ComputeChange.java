@@ -32,19 +32,27 @@ public class ComputeChange {
 
     int numberOfPennies = remainingAmount;
 
+    // System.out.println(
+    //     "Your amount: "
+    //         + amount
+    //         + " consist of "
+    //         + numberOfOneDollars
+    //         + " dollars "
+    //         + numberOfQuarters
+    //         + " quarters "
+    //         + numberOfDimes
+    //         + " dimes "
+    //         + numberOfNickels
+    //         + " nickels "
+    //         + numberOfPennies
+    //         + " pennies ");
+
+    System.out.println("Your mount: " + amount + " consist of ");
     System.out.println(
-        "Your amount: "
-            + amount
-            + " consist of "
-            + numberOfOneDollars
-            + " dollars "
-            + numberOfQuarters
-            + " quarters "
-            + numberOfDimes
-            + " dimes "
-            + numberOfNickels
-            + " nickels "
-            + numberOfPennies
-            + " pennies ");
+        " " + numberOfOneDollars + ((numberOfOneDollars > 1) ? "Dollars" : "Dollar "));
+    System.out.println(" " + numberOfQuarters + ((numberOfQuarters > 1) ? "Quarters" : "Quarter"));
+    System.out.println(" " + numberOfDimes + ((numberOfDimes > 1) ? "Dimes" : "Dime"));
+    System.out.println(" " + numberOfNickels + ((numberOfNickels > 1) ? "Nickels" : "Nickel"));
+    System.out.println(" " + numberOfPennies + ((numberOfPennies > 1) ? "Pennies" : "Pennie"));
   }
 }
