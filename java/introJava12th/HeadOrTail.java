@@ -17,7 +17,6 @@ public class HeadOrTail {
 
       System.out.println("You're not correct!");
     }
-
     input.close();
   }
 }
