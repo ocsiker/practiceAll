@@ -30,6 +30,8 @@ public class CostOfShipping {
       System.out.println("The package cannot be shipped");
     }
 
+    System.out.println("hello");
+
     // Close input
     input.close();
   }

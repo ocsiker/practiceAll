@@ -4,7 +4,7 @@ public class AddThreeNumbers {
     java.util.Scanner input = new java.util.Scanner(System.in);
 
     // Generate three numbers to calculate
-    int randomNumber = (int) (Math.random() * 1000);
+    int randomNumber = (int)(Math.random() * 1000);
     int a = randomNumber % 10;
     int b = randomNumber / 10 % 10;
     int c = randomNumber / 100 % 10;
@@ -15,7 +15,7 @@ public class AddThreeNumbers {
     System.out.print("What is sum of " + a + " " + b + " " + c + " ? ");
     int sum = input.nextInt();
     //
-    //
+
     //
     // Compute sum of a b c
     // Check the result is right
@@ -23,7 +23,8 @@ public class AddThreeNumbers {
       System.out.println("You're right!");
     } else {
       System.out.println("You're wrong");
-      System.out.println("The sum of " + a + "+ " + b + " + " + c + " is : " + (a + b + c));
+      System.out.println("The sum of " + a + "+ " + b + " + " + c +
+                         " is : " + (a + b + c));
     }
 
     // Close input
