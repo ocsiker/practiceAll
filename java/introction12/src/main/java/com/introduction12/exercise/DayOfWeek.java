@@ -1,4 +1,4 @@
-package com.introduction12.exercise;
+// package com.introduction12.exercise;
 
 public class DayOfWeek {
   public static void main(String[] args) {
