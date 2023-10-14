@@ -39,5 +39,7 @@ public class ShowCurrentTime {
 
     System.out.println(
         "The current time is: " + (nowHours + timeZone) + " : " + minutes + " : " + seconds);
+
+    input.close();
   }
 }
