@@ -1,3 +1,4 @@
+
 public class PointOnLineSegment {
   public static void main(String[] args) {
     // final double EPSILON = Math.pow(10, -9);
