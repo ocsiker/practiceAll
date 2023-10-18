@@ -18,7 +18,18 @@
 		<link>
 			<name>src/jap.java</name>
 			<type>1</type>
-			<location>//home/ocsiker/jap.java</location>
+			<location>/home/ocsiker/jap.java</location>
 		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1697321446382</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
