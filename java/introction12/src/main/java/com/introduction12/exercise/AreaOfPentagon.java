@@ -1,3 +1,5 @@
+package com.introduction12.exercise;
+
 public class AreaOfPentagon {
   public static void main(String[] args) {
     // Create a Scanner
