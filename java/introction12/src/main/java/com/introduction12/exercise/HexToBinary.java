@@ -10,8 +10,12 @@ public class HexToBinary {
     char ch = input.next().toLowerCase().charAt(0);
 
     // Display result
-    if ((ch < 'g' && ch >= 'a') || (ch > '0' && ch <= '9')) {
-      System.out.println("The binary value is: " + Integer.toBinaryString(((int) ch)));
+    // Check a tables ascii to convert character to integer right
+    // Because char 'a' if to translate integer is 97 => to 11 we have minux with 87
+    if ((ch < 'g' && ch >= 'a')) {
+      System.out.println("The binary value is: " + Integer.toBinaryString((int) ch - 87));
+    } else if (ch > '0' && ch <= '9') {
+      System.out.println("The binary value is: " + Integer.toBinaryString((int) ch - 48));
     } else {
       System.out.println(ch + " is an invalid input");
     }
