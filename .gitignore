@@ -1,0 +1,8 @@
+.metadata
+javaintroJava12th/
+.project
+.classpath
+.settings
+*.class
+target
+description
