@@ -231,9 +231,9 @@ snippet sout
 snippet serr
 	System.err.println(${0});
 snippet print
-	System.out.print("${0:Message}");
+	System.out.print("${0:}");
 snippet printf
-	System.out.printf("${1:Message}", ${0:args});
+	System.out.printf("${1:}", ${0:args});
 snippet println
 	System.out.println(${0});
 snippet printlna
@@ -303,4 +303,5 @@ snippet buf
 snippet fi
 	File${1:Reader}(${2:})
 
-	
+snippet jusc
+	java.util.Scanner ${1:input} = new java.util.Scanner(${2:System.in});
