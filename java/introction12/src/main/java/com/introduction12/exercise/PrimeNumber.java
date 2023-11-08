@@ -25,6 +25,11 @@ public class PrimeNumber {
           System.out.print(number + " ");
         }
       }
+      /*
+       * Use condition operator
+       * (count%NUMBER_OF_PRIMES_PER_LINE) ? System.out.println(number + " "):
+       * System.out.println(number);
+       */
 
       number++;// the next number to check is prime
     }
