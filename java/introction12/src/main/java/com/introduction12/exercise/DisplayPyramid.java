@@ -32,12 +32,6 @@ public class DisplayPyramid {
             System.out.printf("%3d", (j - n + 1));
           }
         }
-        // int count = 0;
-        // // 2*i-2 is elements in a line
-        // while (count < 2 * i - 1) {
-        // count++;
-        // System.out.print(n - j + 1);// print numbers in a line
-        // }
 
       }
       System.out.println();
