@@ -17,7 +17,6 @@ public class DisplayPyramid {
       for (int j = 1; j < 2 * n; j++) {
         //
         // have a 2*n + 1 numbers on a line
-        int postPrint = n;
         // print at position n and two side of position n with wide is i-1
         if ((j < n - i + 1) || (j > n + i - 1)) // in range [n-i; n+i] we print numbers out we print blank
         {
