@@ -16,7 +16,7 @@ public class CompareLoanWithVariousInterestRates {
     // Table show format with printf
     // interest rate
     double interestRate = 5.0;
-    double remainLoan = loanAmount;
+    double remainLoan = loanAmount;// not necessary
     System.out.println("Interest Rate" + "    " + "Monthly Payment" + "    " + "Total Payment");
     while (interestRate <= 8.0) {
       double monthlyInterestRate = interestRate / 1200;
