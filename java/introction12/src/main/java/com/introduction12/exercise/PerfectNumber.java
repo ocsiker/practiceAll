@@ -9,6 +9,7 @@ public class PerfectNumber {
       int sumOfDivisors = 0;
       for (int divisor = 1; divisor < number / 2 + 1; divisor++) {
         if (number % divisor == 0) {
+          // Sum of all divisors
           sumOfDivisors += divisor;
         }
         if (sumOfDivisors > number) {
