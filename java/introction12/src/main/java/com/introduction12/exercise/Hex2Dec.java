@@ -1,3 +1,5 @@
+package com.introduction12.exercise;
+
 public class Hex2Dec {
   /**
    * Main method
